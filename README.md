@@ -57,6 +57,3 @@ Setup Instructions
 
 
 
-Improve UI/UX with better styling and animations.
-
-Cache summaries to reduce API calls.
