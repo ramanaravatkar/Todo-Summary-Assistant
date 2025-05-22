@@ -33,16 +33,20 @@ Slack Incoming Webhooks integration posts the summary to a configured Slack chan
 
 Environment variables keep sensitive credentials secure.
 
-API Endpoints--------
-
-Method	Endpoint	Description
-GET	/todos	Fetch all to-dos
-POST	/todos	Add a new to-do
-DELETE	/todos/:id	Delete a to-do by ID
-POST	/summarize	Generate and send summary to Slack
 
 
 Run the Application and check these endpoints in Postman
+---------------------------------------------------
+API Endpoints--------
+
+MethodEndpoint-
+GET	/todos--------------------------	Fetch all to-dos
+POST	/todos------------------------	Add a new to-do
+DELETE	/todos/:id------------------	Delete a to-do by ID
+POST	/summarize---------------------Generate and send summary to Slack
+
+
+
 ---------------------------------------------------
 
 A Supabase account 
@@ -51,7 +55,6 @@ OpenAI API key (or other LLM API keys)
 
 Slack workspace with Incoming Webhook URL
 
-Setup Instructions
 
 ------------------Thank you---------------------------
 
