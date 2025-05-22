@@ -1,0 +1,93 @@
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 4rem;
+  background-color: white;
+  border-radius: 16px;
+  margin-top: 6rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+.todo-form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.todo-form input {
+  flex: 2;
+  padding: 0.9rem;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+
+.todo-form button {
+  padding: 0.7rem 1rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 0;
+  border-bottom: 2px solid white;
+}
+
+.todo-item span {
+  flex: 2;
+}
+
+.todo-actions button {
+  margin-left: 0.5rem;
+  padding: 0.8rem 0.12rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: orange;
+  color: white;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+}
+
+.summarize-btn {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  background-color: lightgreen;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.message {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
